@@ -1,0 +1,25 @@
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-wrap;
+    align-content: space-between;
+    height: 800px;
+}
+
+.blogpost { 
+    
+    width: 300px; border: 1px solid black; 
+}
+
+#first {
+
+    border: 5px solid red;
+    flex-grow: 2;
+    align-self: flex-start;
+    order: 2;
+
+}
+
+
+
